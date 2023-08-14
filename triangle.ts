@@ -1,4 +1,4 @@
-function triangle(num: number) {
+export function triangle(num: number) {
    var sum = '';
     for (let i = 0; i < num; i++) {
         sum += '#'
